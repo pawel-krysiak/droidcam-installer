@@ -1,6 +1,6 @@
 # Reinstall droidcam
 cd /tmp/
-wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.0.0.zip
+wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 unzip droidcam_latest.zip -d droidcam
 cd droidcam && sudo ./install-client
 
