@@ -5,6 +5,7 @@ unzip droidcam_latest.zip -d droidcam
 cd droidcam && sudo ./install-client
 
 # Configure Video
+sudo killall adb
 sudo ./install-video
 
 # Reinitialize with HD settings
